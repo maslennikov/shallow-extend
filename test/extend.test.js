@@ -25,7 +25,7 @@ test('Overwriting target', function(assert) {
     assert.end();
 });
 
-test('Mergeing fields', function(assert) {
+test('Merging fields', function(assert) {
     var target = {a: 1, b: 1};
     var source = {b: 2};
 

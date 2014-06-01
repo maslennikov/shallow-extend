@@ -14,7 +14,7 @@ Copies properties of all sources to the destination object overriding its own
 existing properties. When extending from multiple sources, fields of every next
 source will override same named fields of previous sources. Returns the destination object.
 
-Makes only a shallow copy of the source feilds, in contrast to
+Makes only a shallow copy of the source fields, in contrast to
 [node-extend](https://github.com/justmoon/node-extend) or
 [node-deep-extend](https://github.com/unclechu/node-deep-extend).
 
