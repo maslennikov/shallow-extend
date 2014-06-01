@@ -1,8 +1,8 @@
-js-extend
+shallow-extend
 =========
 
-[![browser support](https://ci.testling.com/maslennikov/js-extend.png)
-](https://ci.testling.com/maslennikov/js-extend)
+[![browser support](https://ci.testling.com/maslennikov/shallow-extend.png)
+](https://ci.testling.com/maslennikov/shallow-extend)
 
 A utility function similar to `extend()` in `underscore` or `lo-dash`.
 
@@ -13,6 +13,10 @@ function extend(destination /*...sources*/) {/*...*/}
 Copies properties of all sources to the destination object overriding its own
 existing properties. When extending from multiple sources, fields of every next
 source will override same named fields of previous sources. Returns the destination object.
+
+Makes only a shallow copy of the source feilds, in contrast to
+[node-extend](https://github.com/justmoon/node-extend) or
+[node-deep-extend](https://github.com/unclechu/node-deep-extend).
 
 Examples
 ----------

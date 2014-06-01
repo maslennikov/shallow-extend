@@ -1,5 +1,5 @@
 {
-  "name": "js-extend",
+  "name": "shallow-extend",
   "version": "0.0.1",
   "description": "A utility function similar to 'extend()' in underscore or lo-dash",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/maslennikov/js-extend.git"
+    "url": "https://github.com/maslennikov/shallow-extend.git"
   },
   "keywords": [
     "javascript",
@@ -18,9 +18,9 @@
   "author": "Alexey Maslennikov <alexey@maslennikov.me> (http://maslennikov.me/)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/maslennikov/js-extend/issues"
+    "url": "https://github.com/maslennikov/shallow-extend/issues"
   },
-  "homepage": "https://github.com/maslennikov/js-extend",
+  "homepage": "https://github.com/maslennikov/shallow-extend",
   "devDependencies": {
     "tape": "^2.13.1"
   },
