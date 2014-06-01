@@ -1,0 +1,40 @@
+{
+  "name": "js-extend",
+  "version": "0.0.1",
+  "description": "A utility function similar to 'extend()' in underscore or lo-dash",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/tape/bin/tape ./test/*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/maslennikov/js-extend.git"
+  },
+  "keywords": [
+    "javascript",
+    "extend",
+    "util"
+  ],
+  "author": "Alexey Maslennikov <alexey@maslennikov.me> (http://maslennikov.me/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/maslennikov/js-extend/issues"
+  },
+  "homepage": "https://github.com/maslennikov/js-extend",
+  "devDependencies": {
+    "tape": "^2.13.1"
+  },
+  "testling": {
+    "files": "test/*.js",
+    "browsers": [
+      "ie/6..latest",
+      "chrome/20..latest",
+      "firefox/10..latest",
+      "safari/latest",
+      "opera/11.0..latest",
+      "iphone/6",
+      "ipad/6",
+      "android-browser/latest"
+    ]
+  }
+}
