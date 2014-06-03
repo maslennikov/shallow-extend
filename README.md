@@ -1,8 +1,9 @@
 shallow-extend
 =========
 
-[![browser support](https://ci.testling.com/maslennikov/shallow-extend.png)
-](https://ci.testling.com/maslennikov/shallow-extend)
+[![build status](https://secure.travis-ci.org/maslennikov/shallow-extend.png)
+](http://travis-ci.org/maslennikov/shallow-extend)
+
 
 A utility function similar to `extend()` in `underscore` or `lo-dash`.
 
