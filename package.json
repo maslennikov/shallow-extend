@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/maslennikov/shallow-extend",
   "devDependencies": {
-    "tape": "^2.13.1"
+    "tape": "2.13.x"
   },
   "testling": {
     "files": "test/*.js",
